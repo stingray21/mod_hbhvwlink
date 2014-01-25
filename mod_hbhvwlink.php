@@ -12,7 +12,7 @@ $logoMode = $params->get('logomode');
 $menuitemid = JRequest::getInt('Itemid');
 if ($menuitemid)
 {
-	$menu = JSite::getMenu();
+	$menu = JFactory::getApplication()->getMenu();
 	$menuparams = $menu->getParams( $menuitemid );
 }
 $teamkey = $menuparams->get('teamkey');

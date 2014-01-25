@@ -2,8 +2,9 @@
 defined( '_JEXEC' ) or die( 'Restricted access' );
 
 
-$document =& JFactory::getDocument();
+$document = JFactory::getDocument();
 $document->addStyleSheet(JURI::base() . 'modules/mod_hbhvwlink/css/default.css');
+
 
 if ($HVWlink != '')
 {
@@ -15,7 +16,7 @@ if ($HVWlink != '')
 	{
 		echo '<a class="imageLink" href="'.$HVWlink.'" target="_blank">';
 		echo '<img src="'.JURI::root().'modules/mod_hbhvwlink/images/';
-		switch ($logomode)
+		switch ($logoMode)
 		{
 			case 'notext': 
 				echo 'HVW_Logo_noText.png';
