@@ -1,0 +1,21 @@
+#main div.HVWlink {
+	margin-top: 2em;
+}
+
+#main div.HVWlink a.imageLink:link,
+#main div.HVWlink a.imageLink:visited {
+	background: transparent;
+	}
+
+#main div.HVWlink a.imageLink:hover,
+#main div.HVWlink a.imageLink:active,
+#main div.HVWlink a.imageLink:focus {
+	background: transparent;
+	}
+	
+#main div.HVWlink a.imageLink {
+	float: left;
+}
+#main div.HVWlink a.textLink {
+	line-height: 1;
+}
