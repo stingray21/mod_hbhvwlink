@@ -15,7 +15,13 @@
 	
 #main div.HVWlink a.imageLink {
 	float: left;
+	margin: 2px 10px;
 }
 #main div.HVWlink a.textLink {
 	line-height: 1;
+}
+
+#main div.HVWlink p {
+	line-height: 1.15em;
+	margin: 0px 0;
 }
