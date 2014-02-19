@@ -1,27 +1,33 @@
-#main div.HVWlink {
+div.HVWlink {
 	margin-top: 2em;
 }
 
-#main div.HVWlink a.imageLink:link,
-#main div.HVWlink a.imageLink:visited {
+div.HVWlink a.imageLink:link,
+div.HVWlink a.imageLink:visited {
 	background: transparent;
 	}
 
-#main div.HVWlink a.imageLink:hover,
-#main div.HVWlink a.imageLink:active,
-#main div.HVWlink a.imageLink:focus {
+div.HVWlink a.imageLink:hover,
+div.HVWlink a.imageLink:active,
+div.HVWlink a.imageLink:focus {
 	background: transparent;
 	}
 	
-#main div.HVWlink a.imageLink {
+div.HVWlink a.imageLink {
 	float: left;
 	margin: 2px 10px;
 }
-#main div.HVWlink a.textLink {
-	line-height: 1;
+div.HVWlink a.textLink {
+	line-height: 1.5;
 }
 
-#main div.HVWlink p {
+div.HVWlink p {
 	line-height: 1.15em;
 	margin: 0px 0;
+	float: left;
+	width: 30em;
+}
+
+div.clr {
+	clear: both;
 }

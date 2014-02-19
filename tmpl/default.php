@@ -5,7 +5,6 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 $document = JFactory::getDocument();
 $document->addStyleSheet(JURI::base() . 'modules/mod_hbhvwlink/css/default.css');
 
-
 if ($HVWlink != '')
 {
 	//echo "<p>".JText::_('DESC_MODULE')."</p>";
@@ -34,4 +33,5 @@ if ($HVWlink != '')
 		echo '<p>Für eventuell aktuellere Informationen: <a class="textLink" href="'.$HVWlink.'" target="_blank" ><br />www.hvw-online.org</a></p>';
 	}
 	echo '</div>';
+	echo '<div class="clr"></div>';
 }

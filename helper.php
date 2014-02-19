@@ -12,8 +12,8 @@ if ($linkmode == 'component')
 	// getting further Information of the team
 	$query = $db->getQuery(true);
 	$query->select('HVWlink');
-	$query->from($db->nameQuote('hb_mannschaft'));
-	$query->where($db->nameQuote('kuerzel').' = '.$db->Quote($teamkey));
+	$query->from($db->qn('hb_mannschaft'));
+	$query->where($db->qn('kuerzel').' = '.$db->q($teamkey));
 	$db->setQuery($query);
 	$HVWlink = $db->loadResult ();
 
